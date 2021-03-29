@@ -1,0 +1,22 @@
+//- whatever content typed in here means it is constant for all pages
+doctype html
+html
+  head
+    title Siddharth Dance Acadamy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png", alt="", srcset="")
+                | SDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class Info] 
+            li #[a(href="/contact") Contact Us]
+    
+    block content
+    footer#footer
+        |   Copyright @ 2020 SiddharthDanceAcadamy.Com | All Rights Reserved 
